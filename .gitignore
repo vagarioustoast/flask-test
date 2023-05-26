@@ -1,26 +1,14 @@
-venv/
-__pycache__/
+.venv/
+
 *.pyc
-*.py[cod]
+__pycache__/
 
-*.so
+instance/
 
-.Python
-build/
-develop-eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
+build/
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST

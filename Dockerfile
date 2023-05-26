@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 COPY . /app
 
 # configure the container to run in an executed manner
-CMD [ "python", "view.py" ]
+CMD [ "python", "__init__.py" ]
