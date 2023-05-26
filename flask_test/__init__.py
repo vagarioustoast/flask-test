@@ -29,8 +29,8 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
     
+    from . import db
+    db.init_app(app)
+    
     return app
 
-if __name__ == '__main__':
-    app = create_app()
-    app.run(host='0.0.0.0', port=5000)
